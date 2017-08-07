@@ -22,7 +22,7 @@ Or install it yourself as:
 
 Use it as a footer into your application, don't forget to use your own styles.  
 An example from my own blog would be:
-```
+```ruby
 @copyright = LoaysaViewTool::Renderer.copyright 'Guillermo Loaysa', 'made with &hearts; and ☕️ by'
 ```
 
