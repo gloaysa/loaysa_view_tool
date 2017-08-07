@@ -1,8 +1,6 @@
 # LoaysaViewTool
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/loaysa_view_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+> View specific methods for applications that I use, providing generated HTML data for Rails applications.
 
 ## Installation
 
@@ -22,8 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use it as a footer into your application, don't forget to use your own styles.  
+An example from my own blog would be:
+```
+@copyright = LoaysaViewTool::Renderer.copyright 'Guillermo Loaysa', 'made with &hearts; and ☕️ by'
+```
 
+Will result in something like this:  
+© 2017 | made with ♥ and ☕️ by Guillermo Loaysa since 2017
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
